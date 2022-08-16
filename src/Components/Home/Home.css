@@ -1,0 +1,66 @@
+.h-wrapper{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.home{
+    z-index: 2;
+}
+
+.home-left>:nth-child(1){
+font-size: 1.6rem;
+}
+.home-left>:nth-child(2){
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn{
+    /* background: linear-gradient( to right, #6A98F0, #4961DC ); */
+    background: linear-gradient( to right, #6A98F0, #4961DC );
+    color: white;
+}
+
+.h-img{
+    position: absolute;
+    top: 2rem;
+    right: 15rem;
+    width: 40rem;
+}
+
+
+.blob {
+    position: absolute;
+    top: 2rem;
+    right: -5rem;
+    width: 85rem;
+    z-index: -5;
+    transform: rotate(383deg);
+    overflow: hidden;
+}
+.blob2 {
+    overflow: hidden;
+    position: absolute;
+    top: -15rem;
+    right: -5rem;
+    width: 80rem;
+    z-index: -7;
+    transform: rotate(328deg);
+}
+.blob3 {
+    position: absolute;
+    top: 6rem;
+    right: -5rem;
+    width: 80rem;
+    z-index: -7;
+    transform: rotate(328deg);
+}
+.blur-shade-home {
+    background-color: #071ac9;
+    position: absolute;
+    top: 25rem;
+    right: 30rem;
+}

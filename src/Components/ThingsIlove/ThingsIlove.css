@@ -1,0 +1,36 @@
+.til{
+    height: 60vh;
+    position: relative;
+}
+
+.card{
+    width: 25rem;
+    height: 25rem;
+    border: none;
+    --bs-card-spacer-x: 0rem;
+    --bs-card-spacer-y: 0rem;
+}
+.card-circle{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: linear-gradient(134deg, #6A98F0 0%, #4961DC 99%);
+    color: white;
+}
+
+.card-circle > svg{
+    width: 3.6rem;
+}
+.card-title{
+    font-size: 2rem;
+    color: #6D83F2;
+}
+.card-text{
+    font-size: 1.4rem;
+}
+.blur-shade{
+    position: absolute;
+    top: -31rem;
+    left: 35rem;
+    background-color: #6A98F0;
+}

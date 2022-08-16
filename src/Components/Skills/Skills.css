@@ -1,0 +1,26 @@
+.skills-wrapper{
+    padding:  0 10rem;
+    position: relative;
+}
+.skills{
+    height: 20rem;
+    margin: 10rem 0;
+}
+.skills > svg {
+    width: 8rem;
+    color: #6A98F0;
+}
+
+.blur-skills {
+    position: absolute;
+    bottom: -30rem;
+    right: 0rem;
+    background-color: #6D83F2;
+}
+
+.blur-skills-left{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    background-color: rgb(184, 144, 173);
+}

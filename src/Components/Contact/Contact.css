@@ -1,0 +1,74 @@
+.contact{
+    position: relative;
+    overflow: hidden;
+}
+.contact-page{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.c-left{
+    flex: 1;
+    
+}
+
+.contact-heading{
+    font-size: 3.6rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.heading-blue{
+    color: #6D83F2;
+}
+.heading-black{
+    color: #383838;
+}
+.c-right{
+    flex: 2;
+}
+
+form{
+    width: 50rem;
+}
+
+.user{
+    padding: 0.6rem;
+    font-size: 1.6rem;
+    border: 3px solid #6D83F2;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    color: #6D83F2;
+    outline: none;
+}
+.btn{
+    background: linear-gradient(134deg, #6A98F0 0%, #4961DC 99%);
+    width: 20rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    margin: auto;
+    outline: none;
+    border: none;
+    padding: 1rem 0;
+}
+
+.btn:hover{
+    background: linear-gradient(250deg, #6A98F0 0%, #4961DC 99%);
+    color: white;
+    transition: ease-in-out;
+}
+
+
+
+.wave{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.wave svg{
+    height: 60rem;
+}
+
